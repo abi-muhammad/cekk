@@ -305,7 +305,7 @@ export class AudioManager {
       utter.lang = 'id-ID';
       utter.rate = 1.08;
       utter.pitch = 0.82;
-      utter.volume = 0.95;
+      utter.volume = 0.01;
 
       const voices = window.speechSynthesis.getVoices ? window.speechSynthesis.getVoices() : [];
       const idVoice =
